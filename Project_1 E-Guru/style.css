@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+nav {
+  color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.logo {
+  font-size: 24px;
+  display: flex;
+  gap: 20px;
+}
+
+.logo img {
+  height: 50px;
+  margin-top: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 40px 40px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.container {
+  display: flex;
+  padding: 20px;
+  height: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.left-container {
+  flex: 1;
+}
+
+.right-container {
+  flex: 1;
+  text-align: center;
+  position: relative;
+
+}
+
+.arrow1{
+  margin-top: -25%;
+  margin-left: 70%;
+}
+
+.circle {
+  margin-left: 40px;
+  margin-top: 22%;
+}
+
+.green {
+  margin-top: 25%;
+ /* margin-left: 20%; */
+}
+
+.img1 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  right: 0%;
+}
+
+.img2 {
+  position: absolute;
+  z-index: 2;
+  height: 95%;
+  bottom: 1%;
+  right: 8%;
+}
+
+.img3 {
+  position: absolute;
+  z-index: 3;
+  height: 100%;
+  top: -5%;
+  right: 0%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  gap: 2px;
+}
+
+hr {
+  height: 7%;
+  border: solid 1px;
+  position: absolute;
+}
+
+p {
+  font-size: 15px;
+  position: relative;
+  margin-left: 2%;
+  margin-top: 8%;
+}
+
+.footer p {
+  font-size: 16px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.get-started-btn {
+  background-color: hsl(23, 100%, 50%);
+  color: #fff;
+  border: none;
+}
+
+.learn-more-btn {
+  background-color: #fff;
+  color: #000;
+}
+
+footer {
+  background-color: #343261;
+  color: #fff;
+  padding: 3%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+}
+
+.v1 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(50, 206, 218);
+  border-radius: 10px;
+}
+
+.v2 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(231, 89, 13);
+  border-radius: 10px;
+}
+
+
+.v3 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(34, 0, 107);
+  border-radius: 10px;
+}
